@@ -1,0 +1,27 @@
+body /*llamar al body de html*/
+{
+    background-color: #eee;
+}
+
+.caja 
+{
+    margin: 8px; /*bordea el contenido por fuera de la caja*/
+    padding: 8px; /*bordea el contenido por dentro de la caja*/
+
+    border-style: solid; /*se encuentra entre margin y padding*/
+    border-width: 8px; /*modifica el espesor del borde*/
+    border-color: #000000; /*modifica el color del borde*/
+    border-left: 4px solid #5800bd; /*modifica el borde izquierdo, reasignandole espesor, estilo y color nuevamente*/
+    border-radius: 10px; /*modifica el radio del borde, simulando que en las esquinas hay un circulo del tamaño asignado*/
+
+    background-color: #aaf; /*modifica el color de fondo de la caja*/
+    height: 15px; /*altura de la caja*/
+    width: 100px; /*anchura de la caja*/
+    color: #1100ff;
+}
+
+/*
+-Todos los elementos de html, se modelan pensando como si estuvieran en una caja
+-margin genera una separación y/o diferencias entre el contenido de la caja y la caja superior(en este caso es body)
+-padding nos permite tomar el contenido de la caja y empujarlo hacia el centro o separarlo de los bordes
+*/
