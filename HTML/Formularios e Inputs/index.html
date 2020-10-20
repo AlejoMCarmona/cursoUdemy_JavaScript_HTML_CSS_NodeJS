@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Mi primera pagina</title>
+    </head>
+    <body>
+        <form> <!--Forma básica para pedir datos al usuario-->
+            <fieldset> <!--Agrupa las etiquetas en una "caja"-->
+                <legend>Datos Personales</legend> <!--Nos permite entregar un texto característico a fieldset para informarle al usuario para qué se van a utilizar los datos de los campos-->
+                <label>Edad</label> <!--Asigna una etiqueta-->
+                <input type = "number" placeholder="Ingrese edad"/> <!--Input inserta un campo y placeholder da un indicio al usuario de qué debe ingresar, en este caso de tipo number-->
+                <br />
+                <label>Contraseña</label>
+                <input type = "password" placeholder="Ingrese contraseña"/> <!--Permite ingresar datos de tipo contraseña-->
+                <br />
+                <label>Nombre</label>
+                <input type = "text" placeholder="Ingrese nombre"/> <!--Permite ingresar datos de tipo texto-->
+                <br />
+                <input type = "submit" value = "Acepta"/> <!--Envia el valor del formulario-->
+                <textarea></textarea> <!--Permite ingresar aún más texto-->
+                <button>Aceptar</button> <!--botón-->
+                <select> <!--Permite seleccionar opciones-->
+                    <option value = "homero">Homero</option> <!--asigna una opción, value es el valor que se envía al servidor-->
+                    <option value = "marge">Marge</option>
+                    <option value = "lisa">Lisa</option>
+                </select>
+            </fieldset>
+        </form>
+    </body>
+</html>

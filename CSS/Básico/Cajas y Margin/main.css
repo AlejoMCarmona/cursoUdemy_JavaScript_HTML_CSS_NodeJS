@@ -1,0 +1,14 @@
+body /*llamar al body de html*/
+{
+    background-color: #eee;
+}
+
+.caja 
+{
+    margin: 8px;
+    background-color: #aaf;
+}
+
+/*
+-margin genera una separación y/o diferencias entre el contenido de la caja y la caja superior(body)
+*/

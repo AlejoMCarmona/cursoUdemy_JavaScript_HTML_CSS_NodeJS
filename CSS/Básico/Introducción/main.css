@@ -1,0 +1,21 @@
+body /*llamar al body de html*/
+{
+    background-color: #eeeeee;
+    color: #ff0000;
+}
+
+#parrafo /*llamar un id de html*/
+{
+    color: #ff0000;
+}
+
+.etiqueta /*llamar a una etiqueta de html*/
+{
+    color: #6a5acd;
+}
+
+/*
+-body aplica un estilo general (por ejemplo listas o tablas).
+-las clases (.etiqueta) se utilizan para aplicar un estilo a los elementos que contengan la clase.
+-los id (#parrafo) se utilizan para especificar un estilo a un único elemento.
+*/
