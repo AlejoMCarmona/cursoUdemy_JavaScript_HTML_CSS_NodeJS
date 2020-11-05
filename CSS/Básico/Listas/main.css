@@ -1,0 +1,27 @@
+body {
+    background-color: #c7c7c7;
+}
+
+
+/*seleccionar elementros dentro de un listado (ul li)*/
+
+
+/*
+ul li {
+    list-style-type: upper-alpha;
+}
+
+*/
+
+ul {
+    list-style-type: none;
+    background-color: #fff;
+    border: solid 1px #ddd;
+    border-radius: 3px;
+    padding-left: 0px;
+}
+
+li {
+    border-bottom: solid 1px #ddd;
+    padding: 15px;
+}

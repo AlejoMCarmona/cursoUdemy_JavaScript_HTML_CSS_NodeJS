@@ -1,0 +1,45 @@
+body {
+    background-color: #190042;
+}
+
+
+/*link estilo genérico*/
+
+a {
+    color: #ff69b4;
+    background-color: #f00;
+    border: solid 1px #d00;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px;
+    text-decoration: none;
+}
+
+
+/*color de link en estado normal, es decir sin haberle hecho click*/
+
+a:link {
+    color: #ffc0cb;
+}
+
+
+/*color de link al ser visitado*/
+
+a:visited {
+    color: #800080;
+}
+
+
+/*color de link al pasar el mouse por encima*/
+
+a:hover {
+    color: #fff;
+    background-color: #f55;
+}
+
+
+/*color de link al hacer click*/
+
+a:active {
+    color: #000000;
+}

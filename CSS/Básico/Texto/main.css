@@ -1,0 +1,49 @@
+body {
+    background-color: #190042;
+}
+
+p {
+    /*tipos de fuentes*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-style: oblique;
+    font-size: 1.5em;
+    /*------------------------------------*/
+    color: #2bff00;
+    text-align: center;
+    /*alinear al centro*/
+    text-align: justify;
+    /*alinear al centro*/
+    text-indent: 15px;
+    /*identa el texto, similar a una sangría*/
+    line-height: 1.7;
+    /*altura de las líneas*/
+    word-spacing: 10px;
+    /*Coloca espacio entre las palabras*/
+    text-shadow: 2px 2px 2px rgba(140, 0, 255, 0.7);
+    /*Agrega sombra al texto
+    -primer parametro mueve la sombra a la derecha
+    -segundo parametro mueve la sombra hacia abajo
+    -tercer parametro difumina la sombra
+    -cuarto parametro es el color*/
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /*quita el subrayado del texto*/
+    text-decoration: overline;
+    /*agrega una linea por encima del texto*/
+    text-decoration: line-through;
+    /*agrega una linea a través del texto*/
+    text-decoration: underline;
+    /*agrega un subrayado al texto*/
+    text-transform: uppercase;
+    /*Todo el texto en mayusculas*/
+    text-transform: lowercase;
+    /*Todo el texto en minusculas*/
+    text-transform: capitalize;
+    /*Coloca el primer caracter en mayúsculas*/
+    letter-spacing: 10px;
+    /*Coloca espacio entre los caracteres*/
+}
